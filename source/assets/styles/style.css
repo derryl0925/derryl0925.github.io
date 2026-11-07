@@ -141,6 +141,12 @@ picture {
   padding: 0 20px;
 }
 
+@media only screen and (min-width: 1025px) {
+  .grid .box:last-child:nth-child(3n + 2) {
+    grid-column: span 2;
+  }
+}
+
 .box p {
   margin: 20px 10px;
   font-size: 16px;
